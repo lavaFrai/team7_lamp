@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lamp</title>
+</head>
+<body>
+    <h1>Test lamp controller</h1>
+    <form action="/set-color">
+        <label>
+            UID:
+            <input type="number" name="uid" value="{{uid}}">
+        </label>
+        <br>
+        <label>
+            Color:
+            <input type="color" name="color" value="{{color}}">
+        </label>
+        <br>
+        <label>
+            Brightness:
+            <input type="number" min="0" max="100" name="brightness" value="{{brightness}}">
+        </label>
+        <br>
+        <button type="submit">Set color</button>
+    </form>
+</body>
+</html>

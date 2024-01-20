@@ -1,0 +1,7 @@
+*.idea*
+*.vscode*
+*venv*
+*__pycache__*
+/team7_lamp_server/conf/config.json
+/team7_lamp_server/conf/config_mqtt.json
+/team7_lamp_server/.git
